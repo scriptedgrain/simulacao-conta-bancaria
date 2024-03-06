@@ -17,11 +17,8 @@ public class ContaTerminal {
         System.out.println("\nInforme o número de sua agência: ");
         agencia = src.next();
 
-        System.out.println("\nInforme o seu nome: ");
-        nomeCliente = src.next();
-
-        System.out.println("\nInforme o número de sua agência: ");
-        saldo = src.nextDouble();
+        nomeCliente = "Lucca Maia";
+        saldo = 50.00;
 
     //Impressão dos dados do usuário:
 
@@ -33,6 +30,6 @@ public class ContaTerminal {
         + numero
         + " e seu saldo "
         + saldo
-        + " já está disponível para saque.");
+        + " R$ já está disponível para saque.");
     }
 }
